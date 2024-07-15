@@ -1,0 +1,107 @@
+body{
+    background-color:hsl(0, 0%, 8%) ;
+    
+}
+.main{
+    background-color: hsl(0, 0%, 12%);
+    margin:150px auto;
+    width: 30%;
+    height:auto;
+    border-radius: 10px;
+}
+img{
+     border-radius: 100px;
+     margin-top:10px;
+     margin-left: 25%;
+}
+button{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    margin:0 auto;
+    color: white;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    font-family: "Inter", sans-serif; 
+    font-weight: bold;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.name{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.address{
+color:hsl(75, 94%, 57%);
+display: flex;
+justify-content: center;
+font-weight: 600;
+}
+.title{
+color: whitesmoke;
+display: flex;
+justify-content: center;
+font-weight: 400;
+}
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+}
+
+
+@media only screen and (max-width: 320px) {
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: fit-content;
+    padding: 30px;
+}
+img{
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    height: 100px;
+    
+}
+.title{
+    font-size: 13px;
+    
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+}
+button{
+    width: 110%;
+    height: 35px;
+    
+}
+
+
+}
+@media only screen and (min-width: 321px) {
+    .main{
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+    padding: 30px;
+    }
+    img{
+        height: fit-content;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    }
